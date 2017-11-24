@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.popland.pop.readexcelfile.MainActivity">
+
+    <EditText
+        android:id="@+id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="type here"
+        android:layout_alignParentTop="true"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="find error"
+        android:layout_below="@+id/edt"
+        android:layout_centerHorizontal="true"
+        android:onClick="find_error"/>
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn"/>
+</RelativeLayout>
